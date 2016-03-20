@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">Bangladeshi University Info</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string-array name="type">
+        <item>Regular</item>
+        <item>Irregular</item>
+    </string-array>
+    <string-array name="group">
+        <item>Science</item>
+        <item>Commerce</item>
+        <item>Arts</item>
+    </string-array>
+    <string name="title_activity_option">OptionActivity</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>
