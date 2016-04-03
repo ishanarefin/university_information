@@ -25,6 +25,7 @@
             android:label="@string/title_activity_option" >
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".EditActivity"
             android:label="@string/title_activity_edit" >
         </activity>
@@ -48,6 +49,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+=======
+            android:name=".User_Info"
+            android:label="@string/title_activity_user__info" >
+>>>>>>> a88fc8c3484682073bd110873cec5acb46ef3b43
         </activity>
     </application>
 

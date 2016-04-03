@@ -59,9 +59,13 @@
     <string name="title_activity_option">OptionActivity</string>
 
     <string name="hello_world">Hello world!</string>
+<<<<<<< HEAD
     <string name="title_activity_edit">EditActivity</string>
     <string name="title_activity_private_search">PrivateSearchActivity</string>
     <string name="title_activity_search">SearchActivity</string>
     <string name="title_activity_feedback">FeedbackActivity</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
+=======
+    <string name="title_activity_user__info">User_Info</string>
+>>>>>>> a88fc8c3484682073bd110873cec5acb46ef3b43
 </resources>
