@@ -48,6 +48,8 @@ public class RegisterActivity extends Activity {
             SharedPreferences sharedPreferences = getSharedPreferences("data", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putString("current_username", username);
+            editor.commit();
+            Log.i("jani na jani na", sharedPreferences.getString("current_username", "no_user"));
 
             uservalues.put("username", username);
             uservalues.put("password", ((EditText) findViewById(R.id.password)).getText().toString());

@@ -12,7 +12,56 @@
         <item>Commerce</item>
         <item>Arts</item>
     </string-array>
+
+    <string-array name="dept">
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Math</item>
+        <item>Statistic</item>
+        <item>Pharmacy</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>Marketing</item>
+        <item>Management</item>
+        <item>MicroBiology</item>
+        <item>Accounting</item>
+        <item>Architecture</item>
+        <item>CE</item>
+        <item>ME</item>
+        <item>IPE</item>
+        <item>Urban</item>
+        <item>Economics</item>
+    </string-array>
+
+    <string-array name="cost">
+        <item>4500</item>
+        <item>5000</item>
+        <item>5500</item>
+    </string-array>
+
+
+    <string-array name="campus">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+
+    <string-array name="ieb">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+
+    <string-array name="minGPA">
+        <item>5</item>
+        <item>7.5</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
     <string name="title_activity_option">OptionActivity</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_private_search">PrivateSearchActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
 </resources>
