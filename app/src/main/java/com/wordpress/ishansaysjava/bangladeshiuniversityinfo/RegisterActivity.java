@@ -33,6 +33,7 @@ public class RegisterActivity extends Activity {
         SharedPreferences sharedPreferences = getSharedPreferences("data", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("current_username", username);
+        editor.commit();
 
         uservalues.put("username", username);
         uservalues.put("password", ((EditText) findViewById(R.id.password)).getText().toString());
@@ -64,7 +65,7 @@ public class RegisterActivity extends Activity {
         SQLiteDatabase db = useruniversity_dbhelper.getReadableDatabase();
         db.insert("student", null, uservalues);
 
-        Intent intent = new Intent(this, OptionActivity.class);
+        Intent intent = new Intent(this,User_Info.class);
         startActivity(intent);
         finish();
     }

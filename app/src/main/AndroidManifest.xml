@@ -24,6 +24,10 @@
             android:name=".OptionActivity"
             android:label="@string/title_activity_option" >
         </activity>
+        <activity
+            android:name=".User_Info"
+            android:label="@string/title_activity_user__info" >
+        </activity>
     </application>
 
 </manifest>
